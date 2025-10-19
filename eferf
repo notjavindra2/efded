@@ -18,16 +18,18 @@ local dropdownRef
 local WalkSpeedValue, JumpPowerValue = 17, 50
 local SpeedEnabled = true
 
+-- "#ffe600ff" → RGB(255, 230, 0)
 Window:Tag({
     Title = "v1.0.0",
-    Color = Color3.fromHex("#ffe600ff"),
-    Radius = 0, -- from 0 to 13
+    Color = Color3.fromRGB(255, 230, 0),
+    Radius = 0,
 })
 
+-- "#30ff6a" → RGB(48, 255, 106)
 Window:Tag({
     Title = "FORZA",
-    Color = Color3.fromHex("#30ff6a"),
-    Radius = 0, -- from 0 to 13
+    Color = Color3.fromRGB(48, 255, 106),
+    Radius = 0,
 })
 
 -- Main Tab
